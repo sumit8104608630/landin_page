@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Prociono", serif;
+    font-style: normal;}
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+}
+.logo_name,.head-line{
+    color: white;
+}
+.logo_name{
+    font-size: 1.2rem;
+}
+.head{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px;
+}
+a{
+    text-decoration: none;
+}
+.para-1,.link,.para-2,.para-4{
+    color: rgb(178, 178, 178);
+}
+.a_tag{
+    margin: 8px;
+}
+li,.link {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    list-style: none;
+}
+.button{
+    border: none;
+    background-color: rgb(255, 246, 72);
+    padding: 10px 20px;
+    font-size: large;
+}
+.head-line
+{
+    font-size: 4rem;
+}
+.section-1,.section-4{
+    margin-top: 30px;
+    padding: 10px 150px;
+    width: 50%;
+}
+.para-1{
+    padding: 10px 130px 10px 0px;
+    font-size: 1.4rem;
+}
+.logos{
+    margin-top: 30px;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 150px;
+}
+.section-2,.section-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 10px 150px;
+}
+.head-line-1{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+i{
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+.para-2,.para-4{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.blocks{
+    width: 45%;
+}
+.image-1{
+    width: 100%;
+}
+.section-3{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: rgb(65, 70, 77);
+}
+.para-4{
+    padding-top: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.nav-3{
+    display: none;
+}
+.section-4{
+    width: 30%;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: rgb(65, 70, 77);
+
+    display: flex;
+    align-items: center;
+    padding: 10px 150px;
+    justify-content: space-between;
+}
+.close{
+    display: none;
+}
+@media screen and (max-width: 1100px) {
+  
+    .section-1,.section-2,.section-3,.section-4,.head,.logos{
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+
+    }
+    .section-4{
+        width: 65%;
+        text-align: justify;
+    }
+    .section-1{
+        width: 100%;
+    }
+    .section-2,.section-3{
+        flex-direction: column;
+    }
+    .blocks{
+        justify-content: center;
+        width: 100%;
+    }
+  .logos{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+ .head{
+    flex-direction: column;
+ }
+ .para-2{
+    text-align: justify;
+ }
+ .para-1{
+    text-align: justify;
+    padding: 0;
+    padding-top: 20px;
+ }
+ .block-2{
+    margin-top: 50px;
+ }
+main{
+    width: 100%;
+}
+.logo_name{
+    font-size: 1.5rem;
+  }
+footer{
+  padding: 10px 50px;  
+  width: 100%;
+}
+.head-line{
+font-size: 3rem;
+}
+nav{
+    display: none;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.nav.display{
+    display: flex !important;
+}
+.button.display{
+    display: block;
+}
+.btns{
+    display: none;
+}
+.nav-2{
+    align-items: end;
+    flex-direction: row;
+    display: flex;
+}
+.name_logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+.nav-3,.close{
+    display: block;
+    background-color: transparent;
+    border: none;
+}
+.nav-3.display{
+    display: none;
+}
+.close.display{
+display: block !important;
+}
+.close{
+    display: none;
+}
+
+
+}
+@media screen and (max-width: 401px){
+    footer{
+        padding: 10px 25px;  
+        width: 100%;
+      }
+      
+    .section-1,.section-2,.section-3,.section-4,.head,.logos{
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+    }
+    .head-line{
+        font-size: 2.2rem;
+        }
+  .logo_name{
+    font-size: 1rem;
+  }
+}
